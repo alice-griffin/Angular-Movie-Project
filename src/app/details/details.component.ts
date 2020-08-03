@@ -15,7 +15,7 @@ details: any;
 
 
   ngOnInit(): void {
-     this.getMovieDetails();
+    this.getMovieDetails();
 
   }
 getMovieDetails(): any {

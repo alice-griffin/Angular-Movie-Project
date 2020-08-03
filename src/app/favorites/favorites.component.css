@@ -35,7 +35,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: linear-gradient(180deg, rgba(253,123,83,1) 0%, rgba(85,62,95,1) 28%, rgba(77,59,96,1) 40%, rgba(8,24,58,1) 60%);;
+    color: white;
     font-weight: 300;
     margin: 20px;
     margin-top: 30px; 

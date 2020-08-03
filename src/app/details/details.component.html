@@ -1,15 +1,24 @@
-<header>
+<body>
+<div class="nav">
+    <img src="../../assets/SVG/MovieNightLogo.svg" />
     <h2>Movie Info</h2>
-    <a routerLink ="/home" routerLinkActive="active"><button>Back to Discover Page</button></a>
-</header>
+    <a routerLink="/home" routerLinkActive="active"
+    ><button>Back to Discover Page</button></a
+    >
+</div>
 
+<div class="content">
 <div class="details-container">
-<div class="details">
     <img [src]="details.poster_path ? 'https://image.tmdb.org/t/p/original' + details.poster_path : 'https://via.placeholder.com/150'">
     <div class="movie-info">
     {{details.title}}
+    <br>
     {{details.release_date}}
+    <br>
+    {{details.vote_average + "*"}}
+    <br>
     {{details.overview}}
     </div>
 </div>
 </div>
+</body>
