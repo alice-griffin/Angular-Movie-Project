@@ -1,6 +1,6 @@
 <body>
   <div class="nav">
-    <img src="../../assets/SVG/MovieNightLogo.svg" />
+    <img class="logo" src="../../assets/SVG/MovieNightLogo.svg" />
     <h2>Your Favorites</h2>
     <a routerLink="/home" routerLinkActive="active"
       ><button>Back to Discover Page</button></a
@@ -16,9 +16,6 @@
             : 'https://via.placeholder.com/150'
         "
       />
-      <div class="movie-info">
-        {{movie.title}}
-        </div>
       <span title="Remove from Favorites List"
         ><i class="fas fa-times" (click)="removeFromFavorites(movie)"></i
       ></span>
