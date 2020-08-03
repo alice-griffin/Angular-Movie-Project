@@ -9,7 +9,7 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg, rgba(253,123,83,1) 0%, rgba(85,62,95,1) 28%, rgba(77,59,96,1) 40%, rgba(8,24,58,1) 60%);;
+  background: #212121;
   font-weight: 300;
   margin: 20px;
   padding: 30px 20px 20px 20px;
